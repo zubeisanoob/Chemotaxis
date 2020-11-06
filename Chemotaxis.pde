@@ -21,6 +21,7 @@ void draw() {
     
   }
   fill(0);
+  textFont("Open Sans");
   textSize(20);
   text("Enter walker bias (-5 to 5): " + bias, 20, 480);
 }
