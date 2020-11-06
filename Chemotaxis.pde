@@ -1,6 +1,7 @@
 Bacteria [] bob;
 String bias = "0";
 boolean err = false;
+PFont openSans;
 
 void setup() {     
   size(500, 500);
@@ -8,6 +9,8 @@ void setup() {
   for (int i = 0; i < bob.length; i++) {
     bob[i] = new Bacteria(color(randomRGB(), randomRGB(), randomRGB()), Integer.parseInt(bias)*10);
   }
+  
+  openSans = createFont("OpenSans-Regular.ttf", 20);
 }   
 
 void draw() {    
@@ -18,6 +21,10 @@ void draw() {
     bob[i].show();
     
   }
+  fill(0);
+  textFont(openSans);
+  textSize(20);
+  text("Enter walker bias (-5 to 5): " + bias, 20, 480);
 }
 
 void keyPressed() {
