@@ -96,6 +96,6 @@ class Bacteria {
     fill(0);
     ellipse(myX-5, myY-5, 5, 5);
     ellipse(myX+5, myY-5, 5, 5);
-    arc(myX, myY-1, 50, 10, 1, 50);
+    arc(myX, myY-1, 50, 10, 1, HALF_PI);
   }
 }    
