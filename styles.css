@@ -19,3 +19,8 @@ footer {
 	font-style: italic;
 	font-size: 90%;
 }
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url('OpenSans-Regular.ttf'); format('truetype');
+}
