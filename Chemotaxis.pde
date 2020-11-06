@@ -21,10 +21,6 @@ void draw() {
     bob[i].show();
     
   }
-  fill(0);
-  textFont(openSans);
-  textSize(20);
-  text("Enter walker bias (-5 to 5): " + bias, 20, 480);
 }
 
 void keyPressed() {
