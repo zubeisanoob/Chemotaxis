@@ -22,5 +22,5 @@ footer {
 
 @font-face {
 	font-family: "OpenSans-Regular";
-	src: url('OpenSans-Regular.ttf'); format('truetype');
+	src: url('./OpenSans-Regular.ttf'); format('truetype');
 }
